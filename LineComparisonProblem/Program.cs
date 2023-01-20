@@ -29,15 +29,21 @@ namespace LineComparisonProblem
             double length2 = Math.Sqrt((x4 - x3) ^ 2 + (y4 - y3) ^ 2);
             Console.WriteLine("length of line1 is:" + length1);
             Console.WriteLine("Length of line2 is:"+ length2);
-            if (length1.Equals( length2))
-            {
-                Console.WriteLine("Two lines are equal");
+            if (length1.CompareTo( length2)==1)
+            
+                Console.WriteLine(" length of line one is greater than line2");
 
-            }
+            
+            else if(length1.CompareTo( length2)==-1)
+            
+                Console.WriteLine(" length of line one is less than line2");
+            
             else
-            {
-                Console.WriteLine("two lines are not equal");
-            }
+            
+                Console.WriteLine(" length of Both line is equal");
+            
+
+
 
             Console.ReadLine();
 
