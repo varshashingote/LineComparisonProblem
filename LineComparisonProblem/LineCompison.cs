@@ -39,40 +39,25 @@ namespace LineComparisonProblem
             {
                 Console.WriteLine("Two lines are equal");
                 if (length1.CompareTo(length2) == 1)
-
-                    Console.WriteLine(" length of line one is greater than line2");
-
+                Console.WriteLine(" length of line one is greater than line2");
             }
-
             else if (length1.CompareTo(length2) == -1)
-
                 Console.WriteLine(" length of line one is less than line2");
-
-            else
-            {
+                else
+                {
                 Console.WriteLine("two lines are not equal");
-            }
-
-            Console.WriteLine(" length of Both line is equal");
-
-
-
-
-            Console.ReadLine();
-
-
-
-            if (length1.Equals(length2))
-            {
+                }
+                Console.WriteLine(" length of Both line is equal");
+                Console.ReadLine();
+               if (length1.Equals(length2))
+                {
                 Console.WriteLine("Lines are equal");
-            }
-            else
-            {
+                }
+                else
+                {
                 Console.WriteLine("Lines are not equal");
-            }
+                }
         }
-   
-     
     }
 }
      
